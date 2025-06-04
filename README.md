@@ -1,4 +1,4 @@
-# 🎮 Askancy Metacritic API PHP
+# 🎮 Metacritic API PHP
 
 **Level up your apps** with real-time Metacritic scores using this lightweight PHP package.  
 No API keys, no rate limits — just smart scraping and structured JSON output. 🧠⚡
