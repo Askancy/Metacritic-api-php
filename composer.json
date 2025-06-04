@@ -1,0 +1,34 @@
+{
+  "name": "askancy/metacritic-api-php",
+  "description": "PHP API scraper for Metacritic game scores, returns JSON data.",
+  "type": "library",
+  "require": {
+    "php": "^8.1",
+    "guzzlehttp/guzzle": "^7.0",
+    "symfony/dom-crawler": "^6.0",
+    "symfony/css-selector": "^6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Askancy\\Metacritic\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Daniele Caluri",
+      "email": "daniele@caluri.it"
+    }
+  ]
+}
